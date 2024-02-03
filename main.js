@@ -217,7 +217,7 @@ $(function() {
             var action = determineAction(cards, dealerUpcard, total, soft, isPair, busted, isBlackjack);
 
             if(cards.length == 0) {
-                $('#handValue').html("Amber AI Blackjack ✨");
+                $('#handValue').html("AmberAI Blackjack ✨");
             } else if(busted) {
                 // console.log("Hand Value: Bust");
                 $('#handValue').html("Bust (" + total + "). You lose.");
